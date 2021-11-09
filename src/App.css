@@ -1,0 +1,124 @@
+.AppContainer {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.AppContainer.dark {
+  background-color: darkgrey;
+  color: wheat;
+}
+
+.AppContainer .appWrap {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.AppContainer .heading {
+  margin: 0;
+  padding-top: 10vh;
+}
+.AppContainer .subHead {
+  padding: 15px 0 0 0;
+  margin: 0;
+}
+
+.AppContainer .amountValue {
+  margin: 0;
+}
+
+.AppContainer .expenseSlab {
+  margin: 10px  0 0 0;
+  width: 100%;
+  background: white;
+  position: relative;
+}
+
+.AppContainer .expenseSlab .valueWrap{
+  width: 50%;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+.AppContainer .expenseSlab .valueWrap .value{
+  margin: 5px 0 0 0;
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.AppContainer .expenseSlab .seprator{
+  width: 1px;
+  height: 65px;
+  border-right: 1px solid grey;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.AppContainer .transactionContainer {
+  margin-top: 20px;
+}
+
+.AppContainer .addTransactionContainer {
+  margin-top: 20px;
+}
+
+.AppContainer .underline {
+  padding-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.AppContainer .capital {
+  text-transform: capitalize;
+}
+.AppContainer .upper {
+  text-transform: uppercase;
+}
+.AppContainer .center {
+  text-align: center;
+}
+.AppContainer .income {
+  color: green;
+}
+.AppContainer .expense {
+  color: maroon;
+}
+.AppContainer .ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.AppContainer .formField{
+  margin-top: 15px;
+}
+.AppContainer .formField .formLabel {
+  display: block;
+  font-weight: 500;
+}
+.AppContainer .formField .formInput {
+  display: block;
+  width: 100%;
+  height: 27px;
+  margin-top: 5px;
+}
+
+.AppContainer .formBtn {
+  width: 100%;
+  margin-top: 10px;
+  background-color: purple;
+  color: white;
+  border: 1px solid purple;
+  padding: 5px 0;
+}
+.AppContainer .error {
+  color: red;
+  margin: 0;
+  font-size: 12px;
+}
+.AppContainer .darkModeWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,26 @@
+.txnCardWrap {
+    padding-top: 5px;
+    max-height: 100px;
+    overflow: auto;
+}
+
+.txnCardWrap .txnCard {
+    margin-top: 5px;
+    background-color: white;
+    padding: 5px 10px;
+    color: black;
+}
+
+.txnCardWrap .txnCard.incomeList {
+    border-right: 5px solid green;
+}
+.txnCardWrap .txnCard.expenseList {
+    border-right: 5px solid maroon;
+}
+
+.txnCardWrap .txnCard .txnType{
+    display: inline-block;
+}
+.txnCardWrap .txnCard .txnAmnt{
+    float: right;
+}
